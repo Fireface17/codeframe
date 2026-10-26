@@ -1,0 +1,150 @@
+{
+ "hit_1": {
+  "src": "impactWood_light_002.ogg",
+  "fout": 0.02,
+  "source": "Kenney Impact Sounds / impactWood_light_002.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "hit_2": {
+  "src": "impactWood_medium_001.ogg",
+  "lp": 6000,
+  "fout": 0.04,
+  "source": "Kenney Impact Sounds / impactWood_medium_001.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "thud_1": {
+  "src": "impactSoft_heavy_000.ogg",
+  "hp": 40,
+  "fout": 0.12,
+  "source": "Kenney Impact Sounds / impactSoft_heavy_000.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "thud_2": {
+  "src": "impactPunch_heavy_002.ogg",
+  "hp": 40,
+  "fout": 0.1,
+  "source": "Kenney Impact Sounds / impactPunch_heavy_002.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "paper_1": {
+  "src": "bookPlace1.ogg",
+  "hp": 120,
+  "fout": 0.03,
+  "source": "Kenney RPG Audio / bookPlace1.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "paper_2": {
+  "src": "bookPlace2.ogg",
+  "hp": 120,
+  "fout": 0.04,
+  "source": "Kenney RPG Audio / bookPlace2.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "paper_3": {
+  "src": "card-place-1.ogg",
+  "hp": 150,
+  "lp": 9000,
+  "fout": 0.04,
+  "source": "Kenney Casino Audio / card-place-1.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/casino-audio"
+ },
+ "whoosh_1": {
+  "src": "cards-pack-take-out-1.ogg",
+  "hp": 90,
+  "lp": 1100,
+  "fin": 0.05,
+  "fout": 0.12,
+  "note": "approximation of a soft whoosh: low-passed foley noise (a card pack pulled out), chosen by metrics and spectrogram, not by ear",
+  "source": "Kenney Casino Audio / cards-pack-take-out-1.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/casino-audio"
+ },
+ "whoosh_2": {
+  "src": "cards-pack-take-out-2.ogg",
+  "hp": 90,
+  "lp": 1200,
+  "maxdur": 0.46,
+  "fin": 0.05,
+  "fout": 0.2,
+  "note": "approximation of a soft whoosh: low-passed foley noise (a card pack pulled out), chosen by metrics and spectrogram, not by ear",
+  "source": "Kenney Casino Audio / cards-pack-take-out-2.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/casino-audio"
+ },
+ "whoosh_3": {
+  "src": "thrusterFire_001.ogg",
+  "maxdur": 0.5,
+  "hp": 300,
+  "lp": 4000,
+  "fin": 0.15,
+  "fout": 0.25,
+  "note": "air burst: a 0.5 s window of a thruster noise with long fades, chosen by metrics, not by ear",
+  "source": "Kenney Sci-Fi Sounds / thrusterFire_001.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/sci-fi-sounds"
+ },
+ "scribble_1": {
+  "src": "cloth1.ogg",
+  "hp": 800,
+  "lp": 2500,
+  "fin": 0.008,
+  "fout": 0.06,
+  "note": "approximation of a pen scribble: band-passed cloth rustle with 4-5 strokes, chosen by metrics and spectrogram, not by ear",
+  "source": "Kenney RPG Audio / cloth1.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "scribble_2": {
+  "src": "cloth4.ogg",
+  "hp": 500,
+  "lp": 2500,
+  "fin": 0.008,
+  "fout": 0.06,
+  "note": "approximation of a pen scribble: band-passed cloth rustle, chosen by metrics and spectrogram, not by ear",
+  "source": "Kenney RPG Audio / cloth4.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "boom_1": {
+  "src": "lowFrequency_explosion_001.ogg",
+  "hp": 30,
+  "fout": 0.3,
+  "source": "Kenney Sci-Fi Sounds / lowFrequency_explosion_001.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/sci-fi-sounds"
+ },
+ "boom_2": {
+  "src": "lowFrequency_explosion_000.ogg",
+  "hp": 30,
+  "maxdur": 1.6,
+  "fout": 0.5,
+  "source": "Kenney Sci-Fi Sounds / lowFrequency_explosion_000.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/sci-fi-sounds"
+ },
+ "mech_1": {
+  "src": "metalLatch.ogg",
+  "lp": 6000,
+  "maxdur": 0.12,
+  "fout": 0.03,
+  "source": "Kenney RPG Audio / metalLatch.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "mech_2": {
+  "src": "metalClick.ogg",
+  "lp": 6000,
+  "maxdur": 0.1,
+  "fout": 0.02,
+  "source": "Kenney RPG Audio / metalClick.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ }
+}

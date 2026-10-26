@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>03 · GTA 6 — ролик</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<style>
+  html, body { margin: 0; padding: 0; background: #0E1016; overflow: hidden; }
+  #gl, #ov { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; display: block; }
+</style>
+<script>window.FRAME = { W: 1080, H: 1920, FPS: 30 }; window.READY = new Promise(r => { window.__ready = r; });</script>
+<script type="importmap">{ "imports": { "three": "./js/vendor/three/build/three.module.js", "three/addons/": "./js/vendor/three/addons/" } }</script>
+</head>
+<body>
+<canvas id="gl" width="1080" height="1920"></canvas>
+<svg id="ov" xmlns="http://www.w3.org/2000/svg"></svg>
+<script src="js/vendor/rough.js"></script>
+<script src="js/timing.js"></script>
+<script src="js/city-data.js"></script>
+<script src="js/core.js"></script>
+<script src="js/captions.js"></script>
+<script src="js/shots.js"></script>
+<script src="js/film3.js"></script>
+<script type="module" src="js/b/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+node_modules/
+out/
+projects/*
+!projects/.gitkeep
+inbox/*
+!inbox/.gitkeep
+**/audio/vo/raw/
+**/audio/music/
+*.mp4
+*.wav
+!library/sfx/**/*.wav
+!.claude/skills/code-motion/assets/sfx/*.wav
+.DS_Store
+__pycache__/
+.venv/
+refs/lock.json

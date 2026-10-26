@@ -1,0 +1,183 @@
+{
+ "boom_1": {
+  "file": "boom_1.wav",
+  "dur": 0.658,
+  "peak_db": -16.4,
+  "e200_db": -26.0,
+  "centroid_hz": 95,
+  "hf4k_pct": 0.0,
+  "source": "Kenney Sci-Fi Sounds / lowFrequency_explosion_001.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/sci-fi-sounds"
+ },
+ "boom_2": {
+  "file": "boom_2.wav",
+  "dur": 1.272,
+  "peak_db": -15.6,
+  "e200_db": -26.0,
+  "centroid_hz": 88,
+  "hf4k_pct": 0.0,
+  "source": "Kenney Sci-Fi Sounds / lowFrequency_explosion_000.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/sci-fi-sounds"
+ },
+ "hit_1": {
+  "file": "hit_1.wav",
+  "dur": 0.093,
+  "peak_db": -5.5,
+  "e200_db": -26.0,
+  "centroid_hz": 382,
+  "hf4k_pct": 0.0,
+  "source": "Kenney Impact Sounds / impactWood_light_002.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "hit_2": {
+  "file": "hit_2.wav",
+  "dur": 0.19,
+  "peak_db": -6.1,
+  "e200_db": -26.0,
+  "centroid_hz": 206,
+  "hf4k_pct": 0.0,
+  "source": "Kenney Impact Sounds / impactWood_medium_001.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "mech_1": {
+  "file": "mech_1.wav",
+  "dur": 0.112,
+  "peak_db": -3.9,
+  "e200_db": -26.0,
+  "centroid_hz": 4181,
+  "hf4k_pct": 63.7,
+  "source": "Kenney RPG Audio / metalLatch.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "mech_2": {
+  "file": "mech_2.wav",
+  "dur": 0.092,
+  "peak_db": -3.0,
+  "e200_db": -26.4,
+  "centroid_hz": 3400,
+  "hf4k_pct": 30.2,
+  "source": "Kenney RPG Audio / metalClick.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "paper_1": {
+  "file": "paper_1.wav",
+  "dur": 0.19,
+  "peak_db": -7.6,
+  "e200_db": -26.0,
+  "centroid_hz": 895,
+  "hf4k_pct": 4.9,
+  "source": "Kenney RPG Audio / bookPlace1.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "paper_2": {
+  "file": "paper_2.wav",
+  "dur": 0.223,
+  "peak_db": -7.9,
+  "e200_db": -26.0,
+  "centroid_hz": 934,
+  "hf4k_pct": 2.9,
+  "source": "Kenney RPG Audio / bookPlace2.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio"
+ },
+ "paper_3": {
+  "file": "paper_3.wav",
+  "dur": 0.203,
+  "peak_db": -3.0,
+  "e200_db": -27.6,
+  "centroid_hz": 1588,
+  "hf4k_pct": 12.5,
+  "source": "Kenney Casino Audio / card-place-1.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/casino-audio"
+ },
+ "scribble_1": {
+  "file": "scribble_1.wav",
+  "dur": 0.507,
+  "peak_db": -4.1,
+  "e200_db": -26.0,
+  "centroid_hz": 1135,
+  "hf4k_pct": 0.5,
+  "source": "Kenney RPG Audio / cloth1.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio",
+  "note": "approximation of a pen scribble: band-passed cloth rustle with 4-5 strokes, chosen by metrics and spectrogram, not by ear"
+ },
+ "scribble_2": {
+  "file": "scribble_2.wav",
+  "dur": 0.355,
+  "peak_db": -6.5,
+  "e200_db": -26.0,
+  "centroid_hz": 1075,
+  "hf4k_pct": 0.6,
+  "source": "Kenney RPG Audio / cloth4.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/rpg-audio",
+  "note": "approximation of a pen scribble: band-passed cloth rustle, chosen by metrics and spectrogram, not by ear"
+ },
+ "thud_1": {
+  "file": "thud_1.wav",
+  "dur": 0.385,
+  "peak_db": -13.0,
+  "e200_db": -26.0,
+  "centroid_hz": 100,
+  "hf4k_pct": 0.0,
+  "source": "Kenney Impact Sounds / impactSoft_heavy_000.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "thud_2": {
+  "file": "thud_2.wav",
+  "dur": 0.278,
+  "peak_db": -11.9,
+  "e200_db": -26.0,
+  "centroid_hz": 110,
+  "hf4k_pct": 0.0,
+  "source": "Kenney Impact Sounds / impactPunch_heavy_002.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/impact-sounds"
+ },
+ "whoosh_1": {
+  "file": "whoosh_1.wav",
+  "dur": 0.448,
+  "peak_db": -10.6,
+  "e200_db": -26.0,
+  "centroid_hz": 1059,
+  "hf4k_pct": 0.5,
+  "source": "Kenney Casino Audio / cards-pack-take-out-1.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/casino-audio",
+  "note": "approximation of a soft whoosh: low-passed foley noise (a card pack pulled out), chosen by metrics and spectrogram, not by ear"
+ },
+ "whoosh_2": {
+  "file": "whoosh_2.wav",
+  "dur": 0.434,
+  "peak_db": -13.1,
+  "e200_db": -26.0,
+  "centroid_hz": 1153,
+  "hf4k_pct": 0.6,
+  "source": "Kenney Casino Audio / cards-pack-take-out-2.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/casino-audio",
+  "note": "approximation of a soft whoosh: low-passed foley noise (a card pack pulled out), chosen by metrics and spectrogram, not by ear"
+ },
+ "whoosh_3": {
+  "file": "whoosh_3.wav",
+  "dur": 0.474,
+  "peak_db": -15.3,
+  "e200_db": -26.0,
+  "centroid_hz": 301,
+  "hf4k_pct": 0.5,
+  "source": "Kenney Sci-Fi Sounds / thrusterFire_001.ogg",
+  "license": "CC0 1.0 (Kenney)",
+  "url": "https://kenney.nl/assets/sci-fi-sounds",
+  "note": "air burst: a 0.5 s window of a thruster noise with long fades, chosen by metrics, not by ear"
+ }
+}

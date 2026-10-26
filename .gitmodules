@@ -1,0 +1,704 @@
+[submodule "refs/repos/heygen-com__hyperframes"]
+	path = refs/repos/heygen-com__hyperframes
+	url = https://github.com/heygen-com/hyperframes
+	shallow = true
+[submodule "refs/repos/remotion-dev__skills"]
+	path = refs/repos/remotion-dev__skills
+	url = https://github.com/remotion-dev/skills
+	shallow = true
+[submodule "refs/repos/howseen-ai__claude-motion-design"]
+	path = refs/repos/howseen-ai__claude-motion-design
+	url = https://github.com/howseen-ai/claude-motion-design
+	shallow = true
+[submodule "refs/repos/echris6__motion-video-kit"]
+	path = refs/repos/echris6__motion-video-kit
+	url = https://github.com/echris6/motion-video-kit
+	shallow = true
+[submodule "refs/repos/Tejashmakwana__motionmaxxing"]
+	path = refs/repos/Tejashmakwana__motionmaxxing
+	url = https://github.com/Tejashmakwana/motionmaxxing
+	shallow = true
+[submodule "refs/repos/latent-spaces__brag"]
+	path = refs/repos/latent-spaces__brag
+	url = https://github.com/latent-spaces/brag
+	shallow = true
+[submodule "refs/repos/iart-ai__motion-skills"]
+	path = refs/repos/iart-ai__motion-skills
+	url = https://github.com/iart-ai/motion-skills
+	shallow = true
+[submodule "refs/repos/Vincentwei1021__video-shotcraft"]
+	path = refs/repos/Vincentwei1021__video-shotcraft
+	url = https://github.com/Vincentwei1021/video-shotcraft
+	shallow = true
+[submodule "refs/repos/lemomo-ai__lemo-opuscar"]
+	path = refs/repos/lemomo-ai__lemo-opuscar
+	url = https://github.com/lemomo-ai/lemo-opuscar
+	shallow = true
+[submodule "refs/repos/calesthio__OpenMontage"]
+	path = refs/repos/calesthio__OpenMontage
+	url = https://github.com/calesthio/OpenMontage
+	shallow = true
+[submodule "refs/repos/remotion-dev__remotion"]
+	path = refs/repos/remotion-dev__remotion
+	url = https://github.com/remotion-dev/remotion
+	shallow = true
+[submodule "refs/repos/digitalsamba__claude-code-video-toolkit"]
+	path = refs/repos/digitalsamba__claude-code-video-toolkit
+	url = https://github.com/digitalsamba/claude-code-video-toolkit
+	shallow = true
+[submodule "refs/repos/LottieFiles__motion-design-skill"]
+	path = refs/repos/LottieFiles__motion-design-skill
+	url = https://github.com/LottieFiles/motion-design-skill
+	shallow = true
+[submodule "refs/repos/greensock__gsap-skills"]
+	path = refs/repos/greensock__gsap-skills
+	url = https://github.com/greensock/gsap-skills
+	shallow = true
+[submodule "refs/repos/RenderComp__free-remotion-templates"]
+	path = refs/repos/RenderComp__free-remotion-templates
+	url = https://github.com/RenderComp/free-remotion-templates
+	shallow = true
+[submodule "refs/repos/degueba__onda"]
+	path = refs/repos/degueba__onda
+	url = https://github.com/degueba/onda
+	shallow = true
+[submodule "refs/repos/kapishdima__remocn"]
+	path = refs/repos/kapishdima__remocn
+	url = https://github.com/kapishdima/remocn
+	shallow = true
+[submodule "refs/repos/reactvideoeditor__remotion-templates"]
+	path = refs/repos/reactvideoeditor__remotion-templates
+	url = https://github.com/reactvideoeditor/remotion-templates
+	shallow = true
+[submodule "refs/repos/vincentsch__explainroo"]
+	path = refs/repos/vincentsch__explainroo
+	url = https://github.com/vincentsch/explainroo
+	shallow = true
+[submodule "refs/repos/ythx-101__live-panel-skill"]
+	path = refs/repos/ythx-101__live-panel-skill
+	url = https://github.com/ythx-101/live-panel-skill
+	shallow = true
+[submodule "refs/repos/JohnHeibel__ClaudeAnimationBase"]
+	path = refs/repos/JohnHeibel__ClaudeAnimationBase
+	url = https://github.com/JohnHeibel/ClaudeAnimationBase
+	shallow = true
+[submodule "refs/repos/remotion-dev__template-tiktok"]
+	path = refs/repos/remotion-dev__template-tiktok
+	url = https://github.com/remotion-dev/template-tiktok
+	shallow = true
+[submodule "refs/repos/remotion-dev__template-prompt-to-motion-graphics-saas"]
+	path = refs/repos/remotion-dev__template-prompt-to-motion-graphics-saas
+	url = https://github.com/remotion-dev/template-prompt-to-motion-graphics-saas
+	shallow = true
+[submodule "refs/repos/yihui-dev__awesome-opus5-5-videos"]
+	path = refs/repos/yihui-dev__awesome-opus5-5-videos
+	url = https://github.com/yihui-dev/awesome-opus5-5-videos
+	shallow = true
+[submodule "refs/repos/athemeroy__awesome-opus-5-5-videos"]
+	path = refs/repos/athemeroy__awesome-opus-5-5-videos
+	url = https://github.com/athemeroy/awesome-opus-5-5-videos
+	shallow = true
+[submodule "refs/repos/zhuyansen__awesome-claude-video-skills"]
+	path = refs/repos/zhuyansen__awesome-claude-video-skills
+	url = https://github.com/zhuyansen/awesome-claude-video-skills
+	shallow = true
+[submodule "refs/repos/motion-canvas__motion-canvas"]
+	path = refs/repos/motion-canvas__motion-canvas
+	url = https://github.com/motion-canvas/motion-canvas
+	shallow = true
+[submodule "refs/repos/mifi__editly"]
+	path = refs/repos/mifi__editly
+	url = https://github.com/mifi/editly
+	shallow = true
+[submodule "refs/repos/heygen-com__hyperframes-launches"]
+	path = refs/repos/heygen-com__hyperframes-launches
+	url = https://github.com/heygen-com/hyperframes-launches
+	shallow = true
+[submodule "refs/repos/magicuidesign__magicui"]
+	path = refs/repos/magicuidesign__magicui
+	url = https://github.com/magicuidesign/magicui
+	shallow = true
+[submodule "refs/repos/DavidHDev__react-bits"]
+	path = refs/repos/DavidHDev__react-bits
+	url = https://github.com/DavidHDev/react-bits
+	shallow = true
+[submodule "refs/repos/juliangarnier__anime"]
+	path = refs/repos/juliangarnier__anime
+	url = https://github.com/juliangarnier/anime
+	shallow = true
+[submodule "refs/repos/ibelick__motion-primitives"]
+	path = refs/repos/ibelick__motion-primitives
+	url = https://github.com/ibelick/motion-primitives
+	shallow = true
+[submodule "refs/repos/codrops__KineticTypePageTransition"]
+	path = refs/repos/codrops__KineticTypePageTransition
+	url = https://github.com/codrops/KineticTypePageTransition
+	shallow = true
+[submodule "refs/repos/codrops__TypeShuffleAnimation"]
+	path = refs/repos/codrops__TypeShuffleAnimation
+	url = https://github.com/codrops/TypeShuffleAnimation
+	shallow = true
+[submodule "refs/repos/mojs__mojs"]
+	path = refs/repos/mojs__mojs
+	url = https://github.com/mojs/mojs
+	shallow = true
+[submodule "refs/repos/codrops__OnScrollTypographyAnimations"]
+	path = refs/repos/codrops__OnScrollTypographyAnimations
+	url = https://github.com/codrops/OnScrollTypographyAnimations
+	shallow = true
+[submodule "refs/repos/pqoqubbw__icons"]
+	path = refs/repos/pqoqubbw__icons
+	url = https://github.com/pqoqubbw/icons
+	shallow = true
+[submodule "refs/repos/tholman__cursor-effects"]
+	path = refs/repos/tholman__cursor-effects
+	url = https://github.com/tholman/cursor-effects
+	shallow = true
+[submodule "refs/repos/gl-transitions__gl-transitions"]
+	path = refs/repos/gl-transitions__gl-transitions
+	url = https://github.com/gl-transitions/gl-transitions
+	shallow = true
+[submodule "refs/repos/scriptituk__xfade-easing"]
+	path = refs/repos/scriptituk__xfade-easing
+	url = https://github.com/scriptituk/xfade-easing
+	shallow = true
+[submodule "refs/repos/vysmodev__vysmo"]
+	path = refs/repos/vysmodev__vysmo
+	url = https://github.com/vysmodev/vysmo
+	shallow = true
+[submodule "refs/repos/pixijs__filters"]
+	path = refs/repos/pixijs__filters
+	url = https://github.com/pixijs/filters
+	shallow = true
+[submodule "refs/repos/codrops__SlideshowAnimations"]
+	path = refs/repos/codrops__SlideshowAnimations
+	url = https://github.com/codrops/SlideshowAnimations
+	shallow = true
+[submodule "refs/repos/7PH__powerglitch"]
+	path = refs/repos/7PH__powerglitch
+	url = https://github.com/7PH/powerglitch
+	shallow = true
+[submodule "refs/repos/robin-dela__hover-effect"]
+	path = refs/repos/robin-dela__hover-effect
+	url = https://github.com/robin-dela/hover-effect
+	shallow = true
+[submodule "refs/repos/fand__vfx-js"]
+	path = refs/repos/fand__vfx-js
+	url = https://github.com/fand/vfx-js
+	shallow = true
+[submodule "refs/repos/pmndrs__postprocessing"]
+	path = refs/repos/pmndrs__postprocessing
+	url = https://github.com/pmndrs/postprocessing
+	shallow = true
+[submodule "refs/repos/codrops__PixelTransition"]
+	path = refs/repos/codrops__PixelTransition
+	url = https://github.com/codrops/PixelTransition
+	shallow = true
+[submodule "refs/repos/av__remotion-bits"]
+	path = refs/repos/av__remotion-bits
+	url = https://github.com/av/remotion-bits
+	shallow = true
+[submodule "refs/repos/paper-design__shaders"]
+	path = refs/repos/paper-design__shaders
+	url = https://github.com/paper-design/shaders
+	shallow = true
+[submodule "refs/repos/mattdesl__canvas-sketch"]
+	path = refs/repos/mattdesl__canvas-sketch
+	url = https://github.com/mattdesl/canvas-sketch
+	shallow = true
+[submodule "refs/repos/shader-park__shader-park-core"]
+	path = refs/repos/shader-park__shader-park-core
+	url = https://github.com/shader-park/shader-park-core
+	shallow = true
+[submodule "refs/repos/ruucm__shadergradient"]
+	path = refs/repos/ruucm__shadergradient
+	url = https://github.com/ruucm/shadergradient
+	shallow = true
+[submodule "refs/repos/LingDong-__shan-shui-inf"]
+	path = refs/repos/LingDong-__shan-shui-inf
+	url = https://github.com/LingDong-/shan-shui-inf
+	shallow = true
+[submodule "refs/repos/patriciogonzalezvivo__thebookofshaders"]
+	path = refs/repos/patriciogonzalezvivo__thebookofshaders
+	url = https://github.com/patriciogonzalezvivo/thebookofshaders
+	shallow = true
+[submodule "refs/repos/anvaka__fieldplay"]
+	path = refs/repos/anvaka__fieldplay
+	url = https://github.com/anvaka/fieldplay
+	shallow = true
+[submodule "refs/repos/PavelDoGreat__WebGL-Fluid-Simulation"]
+	path = refs/repos/PavelDoGreat__WebGL-Fluid-Simulation
+	url = https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
+	shallow = true
+[submodule "refs/repos/piellardj__reaction-diffusion-webgl"]
+	path = refs/repos/piellardj__reaction-diffusion-webgl
+	url = https://github.com/piellardj/reaction-diffusion-webgl
+	shallow = true
+[submodule "refs/repos/kgolid__p5ycho"]
+	path = refs/repos/kgolid__p5ycho
+	url = https://github.com/kgolid/p5ycho
+	shallow = true
+[submodule "refs/repos/patriciogonzalezvivo__lygia"]
+	path = refs/repos/patriciogonzalezvivo__lygia
+	url = https://github.com/patriciogonzalezvivo/lygia
+	shallow = true
+[submodule "refs/repos/terkelg__awesome-creative-coding"]
+	path = refs/repos/terkelg__awesome-creative-coding
+	url = https://github.com/terkelg/awesome-creative-coding
+	shallow = true
+[submodule "refs/repos/mrdoob__three.js"]
+	path = refs/repos/mrdoob__three.js
+	url = https://github.com/mrdoob/three.js
+	shallow = true
+[submodule "refs/repos/pmndrs__examples"]
+	path = refs/repos/pmndrs__examples
+	url = https://github.com/pmndrs/examples
+	shallow = true
+[submodule "refs/repos/pmndrs__drei"]
+	path = refs/repos/pmndrs__drei
+	url = https://github.com/pmndrs/drei
+	shallow = true
+[submodule "refs/repos/theatre-js__theatre"]
+	path = refs/repos/theatre-js__theatre
+	url = https://github.com/theatre-js/theatre
+	shallow = true
+[submodule "refs/repos/spite__looper"]
+	path = refs/repos/spite__looper
+	url = https://github.com/spite/looper
+	shallow = true
+[submodule "refs/repos/edankwan__The-Spirit"]
+	path = refs/repos/edankwan__The-Spirit
+	url = https://github.com/edankwan/The-Spirit
+	shallow = true
+[submodule "refs/repos/ykob__sketch-threejs"]
+	path = refs/repos/ykob__sketch-threejs
+	url = https://github.com/ykob/sketch-threejs
+	shallow = true
+[submodule "refs/repos/protectwise__troika"]
+	path = refs/repos/protectwise__troika
+	url = https://github.com/protectwise/troika
+	shallow = true
+[submodule "refs/repos/boytchev__tsl-textures"]
+	path = refs/repos/boytchev__tsl-textures
+	url = https://github.com/boytchev/tsl-textures
+	shallow = true
+[submodule "refs/repos/oframe__ogl"]
+	path = refs/repos/oframe__ogl
+	url = https://github.com/oframe/ogl
+	shallow = true
+[submodule "refs/repos/codrops__WebGLBlobs"]
+	path = refs/repos/codrops__WebGLBlobs
+	url = https://github.com/codrops/WebGLBlobs
+	shallow = true
+[submodule "refs/repos/vizzuhq__vizzu-lib"]
+	path = refs/repos/vizzuhq__vizzu-lib
+	url = https://github.com/vizzuhq/vizzu-lib
+	shallow = true
+[submodule "refs/repos/apache__echarts-examples"]
+	path = refs/repos/apache__echarts-examples
+	url = https://github.com/apache/echarts-examples
+	shallow = true
+[submodule "refs/repos/visgl__deck.gl"]
+	path = refs/repos/visgl__deck.gl
+	url = https://github.com/visgl/deck.gl
+	shallow = true
+[submodule "refs/repos/takanori-fujiwara__d3-gallery-javascript"]
+	path = refs/repos/takanori-fujiwara__d3-gallery-javascript
+	url = https://github.com/takanori-fujiwara/d3-gallery-javascript
+	shallow = true
+[submodule "refs/repos/veltman__flubber"]
+	path = refs/repos/veltman__flubber
+	url = https://github.com/veltman/flubber
+	shallow = true
+[submodule "refs/repos/hatemhosny__racing-bars"]
+	path = refs/repos/hatemhosny__racing-bars
+	url = https://github.com/hatemhosny/racing-bars
+	shallow = true
+[submodule "refs/repos/visgl__flowmap.gl"]
+	path = refs/repos/visgl__flowmap.gl
+	url = https://github.com/visgl/flowmap.gl
+	shallow = true
+[submodule "refs/repos/russellgoldenberg__scrollama"]
+	path = refs/repos/russellgoldenberg__scrollama
+	url = https://github.com/russellgoldenberg/scrollama
+	shallow = true
+[submodule "refs/repos/the-pudding__svelte-starter"]
+	path = refs/repos/the-pudding__svelte-starter
+	url = https://github.com/the-pudding/svelte-starter
+	shallow = true
+[submodule "refs/repos/uwdata__gemini"]
+	path = refs/repos/uwdata__gemini
+	url = https://github.com/uwdata/gemini
+	shallow = true
+[submodule "refs/repos/keplergl__kepler.gl"]
+	path = refs/repos/keplergl__kepler.gl
+	url = https://github.com/keplergl/kepler.gl
+	shallow = true
+[submodule "refs/repos/mhkeller__layercake"]
+	path = refs/repos/mhkeller__layercake
+	url = https://github.com/mhkeller/layercake
+	shallow = true
+[submodule "refs/repos/ledbetterljoshua__functional-emotions-video"]
+	path = refs/repos/ledbetterljoshua__functional-emotions-video
+	url = https://github.com/ledbetterljoshua/functional-emotions-video
+	shallow = true
+[submodule "refs/repos/JohnHeibel__PDoomVideo"]
+	path = refs/repos/JohnHeibel__PDoomVideo
+	url = https://github.com/JohnHeibel/PDoomVideo
+	shallow = true
+[submodule "refs/repos/xdis__opus-video-studio"]
+	path = refs/repos/xdis__opus-video-studio
+	url = https://github.com/xdis/opus-video-studio
+	shallow = true
+[submodule "refs/repos/alexgreensh__anidoodle"]
+	path = refs/repos/alexgreensh__anidoodle
+	url = https://github.com/alexgreensh/anidoodle
+	shallow = true
+[submodule "refs/repos/EGSECDA__vocaloid-style-mv-pipeline"]
+	path = refs/repos/EGSECDA__vocaloid-style-mv-pipeline
+	url = https://github.com/EGSECDA/vocaloid-style-mv-pipeline
+	shallow = true
+[submodule "refs/repos/francozanardi__papermotion"]
+	path = refs/repos/francozanardi__papermotion
+	url = https://github.com/francozanardi/papermotion
+	shallow = true
+[submodule "refs/repos/WinterArc21__Battle-of-Austerlitz-Film"]
+	path = refs/repos/WinterArc21__Battle-of-Austerlitz-Film
+	url = https://github.com/WinterArc21/Battle-of-Austerlitz-Film
+	shallow = true
+[submodule "refs/repos/brucx__opus55-video"]
+	path = refs/repos/brucx__opus55-video
+	url = https://github.com/brucx/opus55-video
+	shallow = true
+[submodule "refs/repos/tuzhechen2005__opus-video-skills"]
+	path = refs/repos/tuzhechen2005__opus-video-skills
+	url = https://github.com/tuzhechen2005/opus-video-skills
+	shallow = true
+[submodule "refs/repos/neelnanda-io__dont-go-quiet-on-me"]
+	path = refs/repos/neelnanda-io__dont-go-quiet-on-me
+	url = https://github.com/neelnanda-io/dont-go-quiet-on-me
+	shallow = true
+[submodule "refs/repos/latent-variable__deep-learning-birthday"]
+	path = refs/repos/latent-variable__deep-learning-birthday
+	url = https://github.com/latent-variable/deep-learning-birthday
+	shallow = true
+[submodule "refs/repos/Bemly__video"]
+	path = refs/repos/Bemly__video
+	url = https://github.com/Bemly/video
+	shallow = true
+[submodule "refs/repos/higgsfield-ai__cli"]
+	path = refs/repos/higgsfield-ai__cli
+	url = https://github.com/higgsfield-ai/cli
+	shallow = true
+[submodule "refs/repos/higgsfield-ai__skills"]
+	path = refs/repos/higgsfield-ai__skills
+	url = https://github.com/higgsfield-ai/skills
+	shallow = true
+[submodule "refs/repos/higgsfield-ai__higgsfield-client"]
+	path = refs/repos/higgsfield-ai__higgsfield-client
+	url = https://github.com/higgsfield-ai/higgsfield-client
+	shallow = true
+[submodule "refs/repos/higgsfield-ai__higgsfield-js"]
+	path = refs/repos/higgsfield-ai__higgsfield-js
+	url = https://github.com/higgsfield-ai/higgsfield-js
+	shallow = true
+[submodule "refs/repos/higgsfield-ai__cursor-plugin"]
+	path = refs/repos/higgsfield-ai__cursor-plugin
+	url = https://github.com/higgsfield-ai/cursor-plugin
+	shallow = true
+[submodule "refs/repos/Hikhakk__higgsfield-mcp-unified"]
+	path = refs/repos/Hikhakk__higgsfield-mcp-unified
+	url = https://github.com/Hikhakk/higgsfield-mcp-unified
+	shallow = true
+[submodule "refs/repos/geopopos__higgsfield_ai_mcp"]
+	path = refs/repos/geopopos__higgsfield_ai_mcp
+	url = https://github.com/geopopos/higgsfield_ai_mcp
+	shallow = true
+[submodule "refs/repos/OSideMedia__higgsfield-ai-prompt-skill"]
+	path = refs/repos/OSideMedia__higgsfield-ai-prompt-skill
+	url = https://github.com/OSideMedia/higgsfield-ai-prompt-skill
+	shallow = true
+[submodule "refs/repos/rediumvex__ai-video-generator-claude"]
+	path = refs/repos/rediumvex__ai-video-generator-claude
+	url = https://github.com/rediumvex/ai-video-generator-claude
+	shallow = true
+[submodule "refs/repos/beshuaxian__higgsfield-seedance2-jineng"]
+	path = refs/repos/beshuaxian__higgsfield-seedance2-jineng
+	url = https://github.com/beshuaxian/higgsfield-seedance2-jineng
+	shallow = true
+[submodule "refs/repos/cth9191__motion-design"]
+	path = refs/repos/cth9191__motion-design
+	url = https://github.com/cth9191/motion-design
+	shallow = true
+[submodule "refs/repos/robonuggets__higgsfield-skill"]
+	path = refs/repos/robonuggets__higgsfield-skill
+	url = https://github.com/robonuggets/higgsfield-skill
+	shallow = true
+[submodule "refs/repos/docsforadobe__after-effects-scripting-guide"]
+	path = refs/repos/docsforadobe__after-effects-scripting-guide
+	url = https://github.com/docsforadobe/after-effects-scripting-guide
+	shallow = true
+[submodule "refs/repos/docsforadobe__after-effects-expression-reference"]
+	path = refs/repos/docsforadobe__after-effects-expression-reference
+	url = https://github.com/docsforadobe/after-effects-expression-reference
+	shallow = true
+[submodule "refs/repos/docsforadobe__javascript-tools-guide"]
+	path = refs/repos/docsforadobe__javascript-tools-guide
+	url = https://github.com/docsforadobe/javascript-tools-guide
+	shallow = true
+[submodule "refs/repos/docsforadobe__Types-for-Adobe"]
+	path = refs/repos/docsforadobe__Types-for-Adobe
+	url = https://github.com/docsforadobe/Types-for-Adobe
+	shallow = true
+[submodule "refs/repos/docsforadobe__aequery"]
+	path = refs/repos/docsforadobe__aequery
+	url = https://github.com/docsforadobe/aequery
+	shallow = true
+[submodule "refs/repos/AdobeDocs__uxp-after-effects"]
+	path = refs/repos/AdobeDocs__uxp-after-effects
+	url = https://github.com/AdobeDocs/uxp-after-effects
+	shallow = true
+[submodule "refs/repos/AdobeDocs__after-effects"]
+	path = refs/repos/AdobeDocs__after-effects
+	url = https://github.com/AdobeDocs/after-effects
+	shallow = true
+[submodule "refs/repos/hyperbrew__bolt-cep"]
+	path = refs/repos/hyperbrew__bolt-cep
+	url = https://github.com/hyperbrew/bolt-cep
+	shallow = true
+[submodule "refs/repos/hyperbrew__bolt-uxp"]
+	path = refs/repos/hyperbrew__bolt-uxp
+	url = https://github.com/hyperbrew/bolt-uxp
+	shallow = true
+[submodule "refs/repos/hyperbrew__after-effects-command-ids"]
+	path = refs/repos/hyperbrew__after-effects-command-ids
+	url = https://github.com/hyperbrew/after-effects-command-ids
+	shallow = true
+[submodule "refs/repos/inlife__nexrender"]
+	path = refs/repos/inlife__nexrender
+	url = https://github.com/inlife/nexrender
+	shallow = true
+[submodule "refs/repos/bodymovin__bodymovin-extension"]
+	path = refs/repos/bodymovin__bodymovin-extension
+	url = https://github.com/bodymovin/bodymovin-extension
+	shallow = true
+[submodule "refs/repos/lottie__lottie-spec"]
+	path = refs/repos/lottie__lottie-spec
+	url = https://github.com/lottie/lottie-spec
+	shallow = true
+[submodule "refs/repos/motiondeveloper__expression-globals-typescript"]
+	path = refs/repos/motiondeveloper__expression-globals-typescript
+	url = https://github.com/motiondeveloper/expression-globals-typescript
+	shallow = true
+[submodule "refs/repos/motiondeveloper__create-expression-lib"]
+	path = refs/repos/motiondeveloper__create-expression-lib
+	url = https://github.com/motiondeveloper/create-expression-lib
+	shallow = true
+[submodule "refs/repos/motiondeveloper__rollup-plugin-ae-jsx"]
+	path = refs/repos/motiondeveloper__rollup-plugin-ae-jsx
+	url = https://github.com/motiondeveloper/rollup-plugin-ae-jsx
+	shallow = true
+[submodule "refs/repos/motiondeveloper__adobe-script-starter"]
+	path = refs/repos/motiondeveloper__adobe-script-starter
+	url = https://github.com/motiondeveloper/adobe-script-starter
+	shallow = true
+[submodule "refs/repos/motiondeveloper__aefunctions"]
+	path = refs/repos/motiondeveloper__aefunctions
+	url = https://github.com/motiondeveloper/aefunctions
+	shallow = true
+[submodule "refs/repos/motiondeveloper__eKeys"]
+	path = refs/repos/motiondeveloper__eKeys
+	url = https://github.com/motiondeveloper/eKeys
+	shallow = true
+[submodule "refs/repos/motiondeveloper__editor"]
+	path = refs/repos/motiondeveloper__editor
+	url = https://github.com/motiondeveloper/editor
+	shallow = true
+[submodule "refs/repos/Klustre__extender"]
+	path = refs/repos/Klustre__extender
+	url = https://github.com/Klustre/extender
+	shallow = true
+[submodule "refs/repos/runegan__jsxbin"]
+	path = refs/repos/runegan__jsxbin
+	url = https://github.com/runegan/jsxbin
+	shallow = true
+[submodule "refs/repos/rendertom__Include"]
+	path = refs/repos/rendertom__Include
+	url = https://github.com/rendertom/Include
+	shallow = true
+[submodule "refs/repos/rendertom__VSCode-Adobe-Script-Runner"]
+	path = refs/repos/rendertom__VSCode-Adobe-Script-Runner
+	url = https://github.com/rendertom/VSCode-Adobe-Script-Runner
+	shallow = true
+[submodule "refs/repos/ExtendScript__extendscript-es5-shim"]
+	path = refs/repos/ExtendScript__extendscript-es5-shim
+	url = https://github.com/ExtendScript/extendscript-es5-shim
+	shallow = true
+[submodule "refs/repos/douglascrockford__JSON-js"]
+	path = refs/repos/douglascrockford__JSON-js
+	url = https://github.com/douglascrockford/JSON-js
+	shallow = true
+[submodule "refs/repos/kyletmartinez__after-effects-scripts"]
+	path = refs/repos/kyletmartinez__after-effects-scripts
+	url = https://github.com/kyletmartinez/after-effects-scripts
+	shallow = true
+[submodule "refs/repos/MysteryPancake__After-Effects-Fun"]
+	path = refs/repos/MysteryPancake__After-Effects-Fun
+	url = https://github.com/MysteryPancake/After-Effects-Fun
+	shallow = true
+[submodule "refs/repos/baku89__ISF4AE"]
+	path = refs/repos/baku89__ISF4AE
+	url = https://github.com/baku89/ISF4AE
+	shallow = true
+[submodule "refs/repos/google__AEUX"]
+	path = refs/repos/google__AEUX
+	url = https://github.com/google/AEUX
+	shallow = true
+[submodule "refs/repos/Experience-Monks__ae-to-json"]
+	path = refs/repos/Experience-Monks__ae-to-json
+	url = https://github.com/Experience-Monks/ae-to-json
+	shallow = true
+[submodule "refs/repos/joonaspaakko__ScriptUI-Dialog-Builder-Joonas"]
+	path = refs/repos/joonaspaakko__ScriptUI-Dialog-Builder-Joonas
+	url = https://github.com/joonaspaakko/ScriptUI-Dialog-Builder-Joonas
+	shallow = true
+[submodule "refs/repos/Arman-Luthra__aftr"]
+	path = refs/repos/Arman-Luthra__aftr
+	url = https://github.com/Arman-Luthra/aftr
+	shallow = true
+[submodule "refs/repos/kumoproductions__mcp-aftereffects"]
+	path = refs/repos/kumoproductions__mcp-aftereffects
+	url = https://github.com/kumoproductions/mcp-aftereffects
+	shallow = true
+[submodule "refs/repos/solomondivyananth__aftereffects-mcp"]
+	path = refs/repos/solomondivyananth__aftereffects-mcp
+	url = https://github.com/solomondivyananth/aftereffects-mcp
+	shallow = true
+[submodule "refs/repos/Engine-Room-Games__after-effects-mcp"]
+	path = refs/repos/Engine-Room-Games__after-effects-mcp
+	url = https://github.com/Engine-Room-Games/after-effects-mcp
+	shallow = true
+[submodule "refs/repos/JUNKDOGE-JOE__after-effects-mcp"]
+	path = refs/repos/JUNKDOGE-JOE__after-effects-mcp
+	url = https://github.com/JUNKDOGE-JOE/after-effects-mcp
+	shallow = true
+[submodule "refs/repos/Dakkshin__after-effects-mcp"]
+	path = refs/repos/Dakkshin__after-effects-mcp
+	url = https://github.com/Dakkshin/after-effects-mcp
+	shallow = true
+[submodule "refs/repos/a-y-ibrahim__after-effects-mcp"]
+	path = refs/repos/a-y-ibrahim__after-effects-mcp
+	url = https://github.com/a-y-ibrahim/after-effects-mcp
+	shallow = true
+[submodule "refs/repos/ishu86__after-effects-mcp"]
+	path = refs/repos/ishu86__after-effects-mcp
+	url = https://github.com/ishu86/after-effects-mcp
+	shallow = true
+[submodule "refs/repos/HeroicSwan__after-effects-mcp"]
+	path = refs/repos/HeroicSwan__after-effects-mcp
+	url = https://github.com/HeroicSwan/after-effects-mcp
+	shallow = true
+[submodule "refs/repos/Aodaruma__adobe-mcp-rs"]
+	path = refs/repos/Aodaruma__adobe-mcp-rs
+	url = https://github.com/Aodaruma/adobe-mcp-rs
+	shallow = true
+[submodule "refs/repos/mikechambers__adb-mcp"]
+	path = refs/repos/mikechambers__adb-mcp
+	url = https://github.com/mikechambers/adb-mcp
+	shallow = true
+[submodule "refs/repos/zachshallbetter__adobe-mcp"]
+	path = refs/repos/zachshallbetter__adobe-mcp
+	url = https://github.com/zachshallbetter/adobe-mcp
+	shallow = true
+[submodule "refs/repos/AJSMonty__adobe-mcp"]
+	path = refs/repos/AJSMonty__adobe-mcp
+	url = https://github.com/AJSMonty/adobe-mcp
+	shallow = true
+[submodule "refs/repos/ilyamorozov13__ae-mcp"]
+	path = refs/repos/ilyamorozov13__ae-mcp
+	url = https://github.com/ilyamorozov13/ae-mcp
+	shallow = true
+[submodule "refs/repos/StanleySweet__ae-mcp"]
+	path = refs/repos/StanleySweet__ae-mcp
+	url = https://github.com/StanleySweet/ae-mcp
+	shallow = true
+[submodule "refs/repos/tzdwindows__after-effects-mcp"]
+	path = refs/repos/tzdwindows__after-effects-mcp
+	url = https://github.com/tzdwindows/after-effects-mcp
+	shallow = true
+[submodule "refs/repos/plainly-videos__mcp-server"]
+	path = refs/repos/plainly-videos__mcp-server
+	url = https://github.com/plainly-videos/mcp-server
+	shallow = true
+[submodule "refs/repos/hetpatel-11__Adobe_Premiere_Pro_MCP"]
+	path = refs/repos/hetpatel-11__Adobe_Premiere_Pro_MCP
+	url = https://github.com/hetpatel-11/Adobe_Premiere_Pro_MCP
+	shallow = true
+[submodule "refs/repos/leancoderkavy__premiere-pro-mcp"]
+	path = refs/repos/leancoderkavy__premiere-pro-mcp
+	url = https://github.com/leancoderkavy/premiere-pro-mcp
+	shallow = true
+[submodule "refs/repos/alisaitteke__photoshop-mcp"]
+	path = refs/repos/alisaitteke__photoshop-mcp
+	url = https://github.com/alisaitteke/photoshop-mcp
+	shallow = true
+[submodule "refs/repos/ie3jp__illustrator-mcp-server"]
+	path = refs/repos/ie3jp__illustrator-mcp-server
+	url = https://github.com/ie3jp/illustrator-mcp-server
+	shallow = true
+[submodule "refs/repos/SFKislev__Flue"]
+	path = refs/repos/SFKislev__Flue
+	url = https://github.com/SFKislev/Flue
+	shallow = true
+[submodule "refs/repos/TerminalSkills__skills"]
+	path = refs/repos/TerminalSkills__skills
+	url = https://github.com/TerminalSkills/skills
+	shallow = true
+[submodule "refs/repos/iart-ai__motion-design-skills"]
+	path = refs/repos/iart-ai__motion-design-skills
+	url = https://github.com/iart-ai/motion-design-skills
+	shallow = true
+[submodule "refs/repos/aedev-tools__adobe-agent-skills"]
+	path = refs/repos/aedev-tools__adobe-agent-skills
+	url = https://github.com/aedev-tools/adobe-agent-skills
+	shallow = true
+[submodule "refs/repos/LobzyJay__motion-design-with-claude-and-codex"]
+	path = refs/repos/LobzyJay__motion-design-with-claude-and-codex
+	url = https://github.com/LobzyJay/motion-design-with-claude-and-codex
+	shallow = true
+[submodule "refs/repos/blixvip__skills"]
+	path = refs/repos/blixvip__skills
+	url = https://github.com/blixvip/skills
+	shallow = true
+[submodule "refs/repos/Mfrostbutter__claude-skills"]
+	path = refs/repos/Mfrostbutter__claude-skills
+	url = https://github.com/Mfrostbutter/claude-skills
+	shallow = true
+[submodule "refs/repos/vlad7329-debug__claude-after-effects-skills"]
+	path = refs/repos/vlad7329-debug__claude-after-effects-skills
+	url = https://github.com/vlad7329-debug/claude-after-effects-skills
+	shallow = true
+[submodule "refs/repos/ZEROTCREATIVE__adobe-suite-agent-skills"]
+	path = refs/repos/ZEROTCREATIVE__adobe-suite-agent-skills
+	url = https://github.com/ZEROTCREATIVE/adobe-suite-agent-skills
+	shallow = true
+[submodule "refs/repos/GUNMIN-KIM__after-effects-codex-agent"]
+	path = refs/repos/GUNMIN-KIM__after-effects-codex-agent
+	url = https://github.com/GUNMIN-KIM/after-effects-codex-agent
+	shallow = true
+[submodule "refs/repos/LevyBytes__AI-SKILL-adobe-products"]
+	path = refs/repos/LevyBytes__AI-SKILL-adobe-products
+	url = https://github.com/LevyBytes/AI-SKILL-adobe-products
+	shallow = true
+[submodule "refs/repos/korbanovalex__hyperframes-to-after-effects"]
+	path = refs/repos/korbanovalex__hyperframes-to-after-effects
+	url = https://github.com/korbanovalex/hyperframes-to-after-effects
+	shallow = true
+[submodule "refs/repos/obeskay__lottie-animator-skill"]
+	path = refs/repos/obeskay__lottie-animator-skill
+	url = https://github.com/obeskay/lottie-animator-skill
+	shallow = true
+[submodule "refs/repos/adobe__skills"]
+	path = refs/repos/adobe__skills
+	url = https://github.com/adobe/skills
+	shallow = true

@@ -1,0 +1,5 @@
+html, body { margin: 0; padding: 0; background: #2b2d31; overflow: hidden; }
+#root { width: 1920px; height: 1200px; position: relative; transform-origin: 0 0; }
+#root svg { display: block; text-rendering: geometricPrecision; }
+#ui { position: fixed; right: 12px; bottom: 12px; font: 13px/1.4 ui-monospace, Menlo, monospace; color: #eee;
+  background: rgba(0,0,0,.6); border-radius: 8px; padding: 6px 10px; z-index: 9; white-space: pre; }

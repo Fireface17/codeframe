@@ -1,0 +1,15 @@
+{
+  "name": "07-claude-montazh",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@fontsource/rubik": "5.2.8",
+    "jetbrains-mono": "1.0.6",
+    "playwright": "1.64.0",
+    "roughjs": "4.6.6",
+    "shiki": "4.5.0"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "02-tesla-roadster",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "playwright": "1.64.0",
+    "roughjs": "4.6.6",
+    "shiki": "4.5.0",
+    "jetbrains-mono": "1.0.6",
+    "@fontsource/rubik": "5.2.8"
+  }
+}

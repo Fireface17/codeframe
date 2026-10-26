@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>lab</title>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="ideas/registry.js"></script>
+<script>
+// Лаборатория: ?idea=<slug> выбирает идею из ideas/registry.js; кадр, тайминг и код берутся из её папки.
+(function () {
+  const q = new URLSearchParams(location.search);
+  const slug = q.get('idea') || window.IDEAS[0].slug;
+  const I = window.IDEAS.find(i => i.slug === slug);
+  if (!I) { document.write(`<p style="color:#fff;font:20px sans-serif">Нет идеи «${slug}» в ideas/registry.js</p>`); throw new Error('unknown idea ' + slug); }
+  const [w, h] = I.size;
+  window.IDEA = I;
+  window.FRAME = { W: w, H: h, FPS: I.fps || 60 };
+  document.title = I.title;
+  document.write(`<style>#root { width: ${w}px; height: ${h}px; }</style>`);
+  const base = `ideas/${slug}/`;
+  window.IDEA_SCRIPTS = ['js/vendor/rough.js', base + 'timing.js', base + 'code-data.js',
+    'js/core.js', 'js/code.js', 'js/captions.js', 'js/cast.js', 'js/lab.js', base + 'film.js', 'js/preview.js'];
+})();
+</script>
+</head>
+<body>
+<div id="root"></div>
+<script>for (const s of window.IDEA_SCRIPTS) document.write(`<script src="${s}"><\/script>`);</script>
+</body>
+</html>
