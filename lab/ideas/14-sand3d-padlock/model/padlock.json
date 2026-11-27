@@ -1,0 +1,67 @@
+{
+ "name": "padlock",
+ "program": "lab/ideas/14-sand3d-padlock/model/padlock.py",
+ "head": "padlock",
+ "parts": [
+  "blade",
+  "shackle",
+  "body"
+ ],
+ "joints": [
+  {
+   "name": "key_turn",
+   "type": "revolute",
+   "axis_gltf": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "unit": "град",
+   "range": [
+    0.0,
+    90.0
+   ]
+  },
+  {
+   "name": "swing",
+   "type": "revolute",
+   "axis_gltf": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "unit": "град",
+   "range": [
+    0.0,
+    180.0
+   ]
+  },
+  {
+   "name": "lift",
+   "type": "prismatic",
+   "axis_gltf": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "unit": "мм",
+   "range": [
+    0.0,
+    10.0
+   ],
+   "follows": {
+    "joint": "key_turn",
+    "multiplier": 0.006366197723675813
+   }
+  }
+ ],
+ "size_mm_xyz": [
+  54.2,
+  54.1,
+  69.0
+ ],
+ "glb_kb": 45.0,
+ "faces": 827,
+ "build_s": 0.08,
+ "total_s": 2.56
+}

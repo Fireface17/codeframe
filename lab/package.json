@@ -9,6 +9,7 @@
     "jetbrains-mono": "1.0.6",
     "playwright": "1.64.0",
     "roughjs": "4.6.6",
-    "shiki": "4.5.0"
+    "shiki": "4.5.0",
+    "three": "0.170.0"
   }
 }

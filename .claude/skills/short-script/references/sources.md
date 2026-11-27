@@ -15,7 +15,6 @@
 - Майер, принцип избыточности (текст на экране ≠ речь): https://www.csus.edu/indiv/e/eppersonm/hist107/documents/mayer,%20heiser,%20&%20lonn%20(2001).pdf
 - Сигнаевская, Горбунова (2026), НИУ ВШЭ: https://psyjournals.ru/en/journals/exppsy/archive/2026_n2/Signaevskaya_Gorbunova
 - Миф о «золотой рыбке» (8 с внимания): https://scienceblog.com/t-humans-eight-second-attention-span-goldfish-myth/
-- Нормализация текста для TTS: https://elevenlabs.io/docs/best-practices/prompting/normalization · https://yandex.cloud/en/docs/speechkit/tts/markup/tts-markup
 
 ## Площадки: сигналы и длина
 - Meta, карточка ранжирования Reels (11.11.2025) [офиц.]: https://transparency.meta.com/features/explaining-ranking/ig-reels-chaining/

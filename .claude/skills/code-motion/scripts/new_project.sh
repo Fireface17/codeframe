@@ -41,6 +41,7 @@ if [ $GL3D = 1 ]; then
   node tools/three_vendor.mjs
   sed -e 's|<script src="js/film.js"></script>|<script src="js/vendor/three.js"></script>\
 <script src="js/gl.js"></script>\
+<script src="js/glb.js"></script>\
 <script src="js/film.js"></script>|' index.html > index.html.tmp && mv index.html.tmp index.html
 fi
 cp node_modules/roughjs/bundled/rough.js js/vendor/rough.js
@@ -60,5 +61,5 @@ Project ready: $DIR  (${W}x${H} @ ${FPS} fps)
   full build  zsh tools/build.sh v1      (MUSIC=audio/music/track.wav MODE=loop|edit LUFS=-14|-16)
   voice       edit script.json, then $SKILL/scripts/voice/README.md
 MSG
-[ $GL3D = 1 ] && echo "  3D layer    js/gl.js (GL.scene / GL.draw / GL.clear), example scene 'orb'; see $SKILL/references/3d.md"
+[ $GL3D = 1 ] && echo "  3D layer    js/gl.js (GL.scene / GL.draw / GL.clear), example scene 'orb'; js/glb.js (sand3d GLB models); see $SKILL/references/3d.md, sand3d.md"
 true

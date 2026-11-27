@@ -702,3 +702,7 @@
 	path = refs/repos/adobe__skills
 	url = https://github.com/adobe/skills
 	shallow = true
+[submodule "refs/repos/Sandflow-ai__sand3d"]
+	path = refs/repos/Sandflow-ai__sand3d
+	url = https://github.com/Sandflow-ai/sand3d
+	shallow = true

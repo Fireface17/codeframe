@@ -60,13 +60,6 @@ def setup_env() -> Path:
     return root
 
 
-def mps_limits() -> None:
-    """Лимиты MPS-аллокатора: без них Chatterbox раздувает кэш до ~18 ГБ и на 16-гигабайтном Mac уходит в своп
-    (1 токен/с вместо 20). Вызывать ДО import torch."""
-    os.environ.setdefault("PYTORCH_MPS_HIGH_WATERMARK_RATIO", "0.8")
-    os.environ.setdefault("PYTORCH_MPS_LOW_WATERMARK_RATIO", "0.6")
-
-
 # --------------------------------------------------------------------------- слова и сценарий
 def is_word(tok: str) -> bool:
     """Слово = токен между пробелами, в котором есть буква или цифра. Одинокое тире («—») словом не считается."""
@@ -215,41 +208,10 @@ def percent_word(n: int, lang: str) -> str:
     return "процентов"
 
 
-def take_name(i: int, seed: int) -> str:
-    return f"p{i}_s{seed}.wav"
-
-
 def parse_take(name: str):
     """'p3_s11.wav' -> (3, 11); не дубль -> None."""
     m = TAKE_RE.match(Path(name).name)
     return (int(m.group(1)), int(m.group(2))) if m else None
-
-
-# --------------------------------------------------------------------------- дубли TTS
-def manifest_load(out_dir) -> dict:
-    """takes.json в папке дублей: параметры, с которыми сделан каждый дубль (чтобы не пересинтезировать то, что уже есть)."""
-    p = Path(out_dir) / "takes.json"
-    try:
-        return json.loads(p.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        return {}
-
-
-def manifest_save(out_dir, manifest: dict) -> None:
-    write_json(Path(out_dir) / "takes.json", manifest)
-
-
-def take_is_current(out_dir, manifest: dict, name: str, params: dict) -> bool:
-    """Дубль уже есть и сделан с теми же текстом и параметрами."""
-    return (Path(out_dir) / name).is_file() and manifest.get(name, {}).get("params") == params
-
-
-def write_take(path, audio, sr: int) -> None:
-    """Дубль как float32 WAV (без квантования и без обрезки пиков: клиппинг потом видно в check_takes)."""
-    import soundfile as sf
-
-    Path(path).parent.mkdir(parents=True, exist_ok=True)
-    sf.write(str(path), np.asarray(audio, dtype="float32").reshape(-1), int(sr), subtype="FLOAT")
 
 
 # --------------------------------------------------------------------------- файлы и звук

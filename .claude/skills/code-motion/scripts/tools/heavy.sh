@@ -1,12 +1,12 @@
 #!/bin/zsh
-# Очередь тяжёлых задач (рендер, синтез голоса, распознавание): одна за раз — на 16 ГБ памяти две сразу уводят машину в своп.
+# Очередь тяжёлых задач (рендер, распознавание голоса): одна за раз — на 16 ГБ памяти две сразу уводят машину в своп.
 #   zsh tools/heavy.sh <кто> <команда> [аргументы...]
 #   zsh tools/heavy.sh render node render.mjs video out/master_v2.mp4 6
 # Ждёт, пока не идёт чужой тяжёлый процесс и свободен замок, берёт замок, выполняет команду, отпускает.
 #   HEAVY_LOCK     папка-замок, общая для всех проектов (по умолчанию ${TMPDIR:-/tmp}/code-motion-heavy.lock)
-#   HEAVY_PATTERN  какие процессы считать тяжёлыми (регулярное выражение для ps; по умолчанию рендер и синтез)
+#   HEAVY_PATTERN  какие процессы считать тяжёлыми (регулярное выражение для ps; по умолчанию рендер и распознавание)
 LOCK="${HEAVY_LOCK:-${TMPDIR:-/tmp}/code-motion-heavy.lock}"
-PATTERN="${HEAVY_PATTERN:-render\.mjs|tts_chatterbox|tts_kokoro|live_words|takes\.py}"
+PATTERN="${HEAVY_PATTERN:-render\.mjs|live_words|takes\.py}"
 [ $# -ge 2 ] || { echo "usage: zsh heavy.sh <who> <command> [args...]"; exit 2; }
 who=$1; shift
 while true; do

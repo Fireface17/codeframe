@@ -1,0 +1,5 @@
+#!/bin/zsh
+# Собрать предмет sand3d: tools/sand3d/run <программа.py> [флаги build.py]  (подробно: run --help)
+D=${0:A:h}
+[ -x "$D/.venv/bin/python" ] || { echo "нет окружения: cd $D && uv venv -p 3.13 .venv && uv pip install -p .venv sand3d==1.6.3"; exit 1; }
+exec "$D/.venv/bin/python" "$D/build.py" "$@"

@@ -1,8 +1,9 @@
 // Writes js/timing.js: window.WORDS (word times of the voice-over, DISPLAY words) and
 // window.WAVE (loudness envelope, 100 values per second, for waveform shots).
 //   node tools/timing.mjs              from audio/vo/words.json (+ audio/vo/vo.wav for WAVE)
-//   node tools/timing.mjs --estimate   synthetic times from script.json, before any voice exists
-// script.json: { lang, lead, tail, pauses: [...], phrases: [{ display, tts, align }] }
+//   node tools/timing.mjs --estimate   estimated times from script.json, before the voice is recorded
+//                                      (pace of the live voice: script.json "pace" in words/s, default 2.5)
+// script.json: { lang, lead, tail, pace?, pauses: [...], phrases: [{ display, tts?, align }] }
 // A "word" = a whitespace token with a letter or digit; lone dashes are not words.
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -20,17 +21,21 @@ if (!process.argv.includes('--estimate') && existsSync(src)) {
   if (data.words.length !== want.length) throw new Error(`words.json has ${data.words.length} words, script.json ${want.length}: regenerate the alignment`);
   data.source = 'audio/vo/words.json';
 } else {
-  // ~2.9 words/s (ru) / 2.7 (en); longer words take longer; script pauses between phrases
+  // live voice pace (words/s of speech, pauses excluded): script.json "pace", default 2.5;
+  // longer words take longer; script pauses between phrases
+  const pace = Number(script.pace) > 0 ? Number(script.pace) : 2.5;
   const per = script.lang === 'en' ? 0.2 : 0.17, perChar = script.lang === 'en' ? 0.045 : 0.052;
+  const raw = w => per + perChar * w.replace(/[^\p{L}\p{N}]/gu, '').length;
+  const k = want.length / pace / (want.reduce((s, w) => s + raw(w), 0) || 1);
   let t = script.lead ?? 0.3;
   const ws = [], phrases = [];
   script.phrases.forEach((p, i) => {
     const start = t;
-    for (const w of words(p.display)) { const d = per + perChar * w.replace(/[^\p{L}\p{N}]/gu, '').length; ws.push({ w, start: t, end: t + d * 0.92 }); t += d; }
+    for (const w of words(p.display)) { const d = raw(w) * k; ws.push({ w, start: t, end: t + d * 0.92 }); t += d; }
     phrases.push({ i: i + 1, start, end: t, text: p.display });
     t += (script.pauses || [])[i] ?? 0.3;
   });
-  data = { duration: t + (script.tail ?? 0.6), phrases, words: ws, source: 'estimate' };
+  data = { duration: t + (script.tail ?? 0.6), phrases, words: ws, source: 'estimate', pace };
 }
 let wave = [];
 if (data.source !== 'estimate' && existsSync(wav)) {

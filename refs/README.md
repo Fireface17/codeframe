@@ -1,4 +1,4 @@
-# Референсы: 191 репозиторий
+# Референсы: 192 репозитория
 
 Чужие репозитории подключены **подмодулями**: в нашем репозитории хранится только ссылка на оригинал и точный коммит, сам код живёт у авторов.
 Нажми на папку в `refs/repos/` — попадёшь в оригинал.
@@ -122,7 +122,7 @@
 | [latent-variable/deep-learning-birthday](https://github.com/latent-variable/deep-learning-birthday) | MIT (код) + CC BY-SA 4.0 (арт) | ✅ | Шейдер ризографии с мисрегистрацией на сильную долю — переносимый пост-эффект; брать только код, 330 МБ — PNG-плиты |
 | [Bemly/video](https://github.com/Bemly/video) | нет | 👀 | Только смотреть: math-execute-me/openai-math (Canvas/WebGL математика) и odyssey (Three.js) — лёгкие папки; ime/ и gemini/ — сотни МБ mp4 |
 
-## R — исследования: Higgsfield, After Effects, Lottie, MCP (79)
+## R — исследования: Higgsfield, After Effects, Lottie, MCP, 3D (80)
 
 | Репозиторий | Лицензия | Код | Что брать |
 |---|---|---|---|
@@ -205,6 +205,7 @@
 | [korbanovalex/hyperframes-to-after-effects](https://github.com/korbanovalex/hyperframes-to-after-effects) | MIT | ✅ | Идея моста «HTML-анимация → .aep для заказчика»; проект нулевой зрелости |
 | [obeskay/lottie-animator-skill](https://github.com/obeskay/lottie-animator-skill) | MIT | ✅ | Линтер Lottie и конвертер SVG→Lottie |
 | [adobe/skills](https://github.com/adobe/skills) | Apache-2.0 | ✅ | Только если нужен коннектор Adobe for creativity |
+| [Sandflow-ai/sand3d](https://github.com/Sandflow-ai/sand3d) | Apache-2.0 | ✅ | 3D-предметы с подвижными частями короткой программой на Python → GLB для 3D-слоя code-motion (`tools/sand3d/run`, инструкция — `code-motion/references/sand3d.md`) |
 
 ## C — только ссылка (крупные или с ограничениями лицензии) (15)
 

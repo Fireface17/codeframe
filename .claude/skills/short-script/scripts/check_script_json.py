@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Проверка script.json для code-motion перед озвучкой.
+"""Проверка script.json для code-motion перед черновиком и записью голоса.
    python3 check_script_json.py script.json [--wps 2.8]
 Проверяет: число слов display == align в каждой фразе; в align (ru) нет латиницы; оценивает
 хронометраж (слова / wps + lead + паузы + tail). Слово = кусок между пробелами с буквой или цифрой
@@ -37,6 +37,6 @@ pauses = d.get('pauses', [])
 gaps = [pauses[min(k, len(pauses) - 1)] if pauses else 0.3 for k in range(max(0, len(ph) - 1))]
 dur = total / wps + d.get('lead', 0.3) + sum(gaps) + d.get('tail', 0.6)
 print(f'{len(ph)} фраз, {total} слов, ≈{dur:.1f} с при {wps} слова/с'
-      f' (нейроголос ~3 слова/с: ≈{total / 3 + d.get("lead", 0.3) + sum(gaps) + d.get("tail", 0.6):.1f} с)')
+      f' (живой голос автора ~2,5 слова/с: ≈{total / 2.5 + d.get("lead", 0.3) + sum(gaps) + d.get("tail", 0.6):.1f} с)')
 print('OK' if not bad else f'ошибок во фразах: {bad}')
 sys.exit(1 if bad else 0)

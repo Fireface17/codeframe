@@ -2684,5 +2684,24 @@
   "what": "Официальные скиллы Adobe, в т.ч. плагин adobe-for-creativity (фото, шаблоны, Quick Cut, ресайз видео); AE/ExtendScript нет",
   "stars": 245,
   "official": true
+ },
+ {
+  "id": "Sandflow-ai__sand3d",
+  "url": "https://github.com/Sandflow-ai/sand3d",
+  "license": "Apache-2.0",
+  "priority": "R",
+  "kind": "3D кодом",
+  "group": "3D",
+  "ok": true,
+  "sparse": [
+   "/*.md",
+   "/llms.txt",
+   "/docs/",
+   "/programs/",
+   "/src/"
+  ],
+  "take": "3D-предметы с подвижными частями короткой программой на Python (Blender bpy) → GLB для 3D-слоя code-motion; установлено в tools/sand3d, инструкция — code-motion/references/sand3d.md; docs/api.md (~3600 токенов) кладётся в промпт целиком",
+  "what": "Библиотека 3D-моделирования для LLM: профили, тела, правки, петли и сборки по именам, детерминированно; экспорт GLB/URDF/USD/OBJ/STL",
+  "stars": 1004
  }
 ]

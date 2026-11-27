@@ -343,5 +343,36 @@ window.IDEAS = [
    "url": "",
    "license": "своя"
   }
+ },
+ {
+  "slug": "14-sand3d-padlock",
+  "title": "3D-предмет из кода: замок открывается",
+  "size": [
+   1080,
+   1920
+  ],
+  "fps": 60,
+  "kind": "3D",
+  "tags": [
+   "3D",
+   "sand3d",
+   "three.js",
+   "GLB",
+   "петли",
+   "механизм",
+   "как устроено"
+  ],
+  "about": "Предмет с подвижными частями написан на sand3d (model/padlock.py, ~40 строк Python), собран tools/sand3d/run в GLB и поставлен в 3D-слой: петли — функция времени (ключ → дужка поднимается ведомой петлёй → дужка отворачивается), облёт камеры, студийное окружение для металла.",
+  "scripts": [
+   "js/vendor/three.js",
+   "js/gl.js",
+   "js/glb.js",
+   "ideas/14-sand3d-padlock/model/padlock.glb.js"
+  ],
+  "src": {
+   "name": "своя; библиотека sand3d (Sandflow-ai)",
+   "url": "https://github.com/Sandflow-ai/sand3d",
+   "license": "Apache-2.0"
+  }
  }
 ];

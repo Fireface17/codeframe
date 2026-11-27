@@ -9,13 +9,14 @@
 |---|---|
 | `index.html` | загрузчик: по `?idea=` берёт размер кадра из реестра и подключает файлы идеи |
 | `ideas/<slug>/film.js` | сама идея (палитра → cues `T` → построение → `frame(t)`) |
-| `ideas/<slug>/meta.json` | описание: title, size, fps, kind, tags, about, src (источник вдохновения и лицензия) |
+| `ideas/<slug>/meta.json` | описание: title, size, fps, kind, tags, about, src (источник вдохновения и лицензия); `scripts` — доп. скрипты перед film.js (3D) |
 | `ideas/<slug>/script.json`, `snippets/` | у идей с озвучкой/субтитрами и плашками кода |
 | `ideas/<slug>/timing.js`, `code-data.js` | генерируются из `script.json` и `snippets/` |
 | `ideas/registry.js` | генерируется из всех `meta.json` |
 | `js/core.js`, `code.js`, `captions.js`, `cast.js`, `preview.js` | копии движка из навыка |
 | `js/lab.js` | дополнительные приёмы поверх движка: noise1, fbm1, shake, textWidth, splitText, typed, fmtNum, countTo, clipRect, clipCircle, linGrad, radGrad, arcD, sceneG, stag |
 | `js/vendor/rough.js` | рукописные линии |
+| `js/vendor/three.js`, `js/gl.js`, `js/glb.js` | 3D-слой (three 0.170.0) и загрузчик GLB из sand3d; идея подключает их полем `scripts` в `meta.json` |
 | `assets/fonts/` | Rubik 400–900, Onest 400–800, Unbounded 500/700/900, JetBrains Mono 400/700, Excalifont (все с кириллицей) |
 | `render.mjs` | рендер из навыка (`QUERY=idea=<slug>` выбирает идею) |
 | `tools/lab.mjs` | команды лаборатории: list, prep, sheet, draft, render, check, new |
@@ -47,5 +48,6 @@
 | 11-transitions | 1920×1080 | whip-pan, круг, match cut, жалюзи | готово, без превью |
 | 12-bg-loops | 1080×1920 | бесшовный фон-петля | черновик (сборка прервана) |
 | 13-stop-motion | 1080×1080 | стилизатор «стоп-моушн на двойках» | готово, без превью |
+| 14-sand3d-padlock | 1080×1920 | 3D-замок из кода (sand3d): ключ → дужка поднимается → отворачивается | черновик `out/drafts/` (2026-11-08) |
 
 Весь контент идей выдуманный (бренды, имена, данные).

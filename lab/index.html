@@ -19,8 +19,10 @@
   document.title = I.title;
   document.write(`<style>#root { width: ${w}px; height: ${h}px; }</style>`);
   const base = `ideas/${slug}/`;
+  // I.scripts (meta.json "scripts") — доп. скрипты идеи перед film.js, пути от lab/:
+  // 3D-слой — ["js/vendor/three.js", "js/gl.js", "js/glb.js", "ideas/<slug>/<модель>.glb.js"]
   window.IDEA_SCRIPTS = ['js/vendor/rough.js', base + 'timing.js', base + 'code-data.js',
-    'js/core.js', 'js/code.js', 'js/captions.js', 'js/cast.js', 'js/lab.js', base + 'film.js', 'js/preview.js'];
+    'js/core.js', 'js/code.js', 'js/captions.js', 'js/cast.js', 'js/lab.js', ...(I.scripts || []), base + 'film.js', 'js/preview.js'];
 })();
 </script>
 </head>

@@ -320,7 +320,7 @@ def main() -> None:
     ap.add_argument("--takes", required=True, help="папка с дублями p<i>_s<seed>.wav")
     ap.add_argument("--out", default="picks.json", help="куда писать выбор (по умолчанию picks.json)")
     ap.add_argument("--prefer", choices=["wer", "pace"], default="wer", help="что важнее при выборе: точность (wer) или темп (pace)")
-    ap.add_argument("--pace", default="2.8,3.3", help="желаемый темп, слов/с: «мин,макс» (по умолчанию 2.8,3.3)")
+    ap.add_argument("--pace", default="2.1,2.5", help="желаемый темп, слов/с: «мин,макс» (по умолчанию 2.1,2.5 — живая запись до обработки)")
     ap.add_argument("--max-wer", type=float, default=0.0, help="допустимый WER для --prefer pace (по умолчанию 0)")
     ap.add_argument("--ref", choices=["align", "tts", "display"], default="align", help="с каким текстом сравнивать распознанное (по умолчанию align)")
     ap.add_argument("--phrases", default=None, help="проверить только эти фразы: 1,3 (остальные записи picks.json сохраняются)")
@@ -333,7 +333,7 @@ def main() -> None:
         lo, hi = (float(v) for v in args.pace.split(","))
         assert 0 < lo <= hi
     except (ValueError, AssertionError):
-        raise cm.ScriptError('--pace: нужно «мин,макс» в словах/с, например 2.8,3.3') from None
+        raise cm.ScriptError('--pace: нужно «мин,макс» в словах/с, например 2.1,2.5') from None
 
     script = cm.load_script(args.script)
     lang, phrases = script["lang"], script["phrases"]
@@ -349,7 +349,7 @@ def main() -> None:
     empty = [i for i, v in by_phrase.items() if not v]
     if empty:
         raise cm.ScriptError(f"Нет дублей для фраз {empty} в {tdir} (ожидаются файлы вида p{empty[0]}_s7.wav). "
-                             f"Сначала tts_chatterbox.py / tts_kokoro.py.")
+                             f"Сначала нарежьте запись: takes.py (или live_words.py + live_cut.py).")
     total = sum(len(v) for v in by_phrase.values())
 
     asr, backend, model = make_asr(args.backend, args.model, lang)
